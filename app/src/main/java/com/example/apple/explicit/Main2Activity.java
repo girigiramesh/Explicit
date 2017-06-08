@@ -15,5 +15,6 @@ public class Main2Activity extends AppCompatActivity {
         tv_received= (TextView) findViewById(R.id.tv_received);
         tv_received.setText(getIntent().getStringExtra("text"));
         Log.d("info ", "onCreate: ");
+        Log.d("info ", "onCreate: 1111 ");
     }
 }
