@@ -2,6 +2,7 @@ package com.example.apple.explicit;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
@@ -13,5 +14,6 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         tv_received= (TextView) findViewById(R.id.tv_received);
         tv_received.setText(getIntent().getStringExtra("text"));
+        Log.d("info ", "onCreate: ");
     }
 }
