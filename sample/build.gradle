@@ -3,6 +3,8 @@ apply plugin: 'com.android.library'
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'explicit'
+    user = 'girigiramesh'
+    apiKey = 'e0ece3ebd37f61043874f2d77dd96d37b5fc857f'
 
     publishedGroupId = 'com.rameshexplicit.explicit'
     libraryName = 'explicit'
