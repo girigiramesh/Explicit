@@ -1,9 +1,7 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayUser = 'girigiramesh'
-    bintrayApiKey = 'e0ece3ebd37f61043874f2d77dd96d37b5fc857f'
-    bintrayRepo = 'maven'
+    bintrayRepo = 'Maven'
     bintrayName = 'explicit'
 
 
